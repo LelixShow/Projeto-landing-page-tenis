@@ -1,0 +1,168 @@
+/* ============= RESET CSS ================ */
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.frame {
+    display: flex;
+    margin: 0 auto;
+    background: #F1F1F1;
+    max-width: 1440px;
+    height: 1080px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.center {
+    display: flex;
+    max-width: 1062px;
+    min-width: 300px;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+}
+
+.image {
+    background: linear-gradient(180deg, rgba(255,236,66,1) 0%, rgba(255,148,3,1) 100%);;
+    flex-grow: 1;
+    width: 50%;
+    min-width: 300px;
+    justify-content: center;
+}
+
+img {
+    height: 488px;
+    z-index: 20;
+    position: relative;
+    transition: 0.2s;
+}
+
+.caixa {
+    background: black;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: -180px;
+    z-index: 1;
+}
+
+.text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 300px;
+    background: white;
+}
+
+.text-header {
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 94px;
+    margin-right: 89px;
+    margin-top: -20px;
+}
+
+
+
+h2 {
+    margin: 0;
+    line-height: 100px;
+    margin-top: 70px;
+    line-height: 71.49px;
+}
+
+.text-small {
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 94px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-botao {
+    max-width: 238px;
+    max-height: 55px;
+    margin-left: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    font-size: 25px;
+    font-weight: 700px;
+    font-weight: 23.3px;
+    padding-top: 16px;
+    padding-left: 23px;
+    padding-bottom: 16px;
+    padding-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-botao:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    border: 2px solid black;
+    color: #000;
+    font-size: 25px;
+    font-weight: 700px;
+    font-weight: 23.3px;
+    padding-top: 16px;
+    padding-left: 23px;
+    padding-bottom: 16px;
+    padding-right: 22px;
+}
+
+img:hover {
+    transform: scale(1.4) rotate(4deg);
+}
+
+#mentor {
+    position: relative;
+    /* DevMentor. */
+left: 37px;
+top: 33px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.header {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    transform: perspective(-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
